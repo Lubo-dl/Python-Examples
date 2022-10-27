@@ -1,9 +1,11 @@
-# Първи скрипт на питон
-# Конвертор на валута лев към евро    REV.1.0
-# Яни Живков
-# yani.jivkov@gmail.com
-# 25.09.2022
+litri = float(input())
+alkoholen_gradus = float(input())
+gradusi = float(input())
 
-leva = int(input())
-euro = leva / 1.95583
-print(euro)
+rakiq = litri * alkoholen_gradus
+rakiq /= gradusi
+voda_za_dobavqne = rakiq - litri
+
+print(rakiq)
+print(voda_za_dobavqne)
+
